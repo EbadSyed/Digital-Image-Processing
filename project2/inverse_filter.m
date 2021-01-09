@@ -5,7 +5,8 @@ function [outputArg1] = inverse_filter(cam_blur_noise,PSF,Do)
 %Do is the cuttoff
 
 %Inverse Filter
-%   Computer Fast Fourier Transform
+%Computer Fast Fourier Transform
+
 H = fft2(PSF);
 G = fft2(cam_blur_noise);
 
