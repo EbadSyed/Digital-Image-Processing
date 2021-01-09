@@ -1,26 +1,26 @@
-#Digital Image Processing Project
+# Digital Image Processing Project
 
 Done to satisfy the Project Requirement for Special Topics course EENG860 at New York Institute of Technology
 
-#Project 1
+# Project 1
 Guassian and Bilateral Filtering
 
-##Guassian Filtering
+## Guassian Filtering
 ![GFilter](project1/gFilter.png)
 
-##Bilateral Filtering
+## Bilateral Filtering
 ![BFilter](project1/bilateralFilter.png)
 
-###Histogram Analysis
+### Histogram Analysis
 ![HistoAnalysis](project1/histoAnalysis.png)
 
-###Patch Analysis
+### Patch Analysis
 ![PAnalysis](project1/patchAnalysis.png)
 
-#Project 2
+# Project 2
 Denoising Images using FIF, Wiener and CLSF.
 
-##Filter Inverse Filter Implementation
+## Filter Inverse Filter Implementation
 
 ```
 function [outputArg1] = inverse_filter(cam_blur_noise,PSF,Do)
@@ -40,13 +40,13 @@ end
 ```
 ![FIF](project2/fif.png)
 
-##FIF vs WNR vs CLSF
+## FIF vs WNR vs CLSF
 
-###Gaussian Blur and Filtering
+### Gaussian Blur and Filtering
 ![GBlur](project2/gBlur.png)
 
-###Linear Blur and Filtering
+### Linear Blur and Filtering
 ![LBlur](project2/lBlur.png)
 
-###Non-Linear Blur and Filtering
+### Non-Linear Blur and Filtering
 ![NLBlur](project2/nlBlur.png)
